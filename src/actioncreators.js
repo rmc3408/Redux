@@ -1,9 +1,8 @@
-import { bindActionCreators } from "redux";
 import * as action from './actiontypes'
 
 export function bugAddiction(txt) {
     return {
-        type: "ADD_BUG",
+        type: action.ADDED,
         payload: {
             description: txt
         }
